@@ -21,14 +21,14 @@ body {
 }
 
 h1 {
-    margin: 20px auto;
+    margin: 5px auto 0;
     font-size: 24px;
 }
 
 input {
     width: 300px;
     padding: 10px;
-    margin: 20px auto ;
+    margin: 15px auto;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
@@ -36,9 +36,10 @@ input {
 }
 
 button {
-    width: 400px;
+    width: 300px;
     padding: 10px;
     margin: 0 auto;
+    font-weight: 700;
     background-color: #28a745;
     color: white;
     border: none;
@@ -56,4 +57,18 @@ button:hover {
     margin: 20px auto;
     font-size: 18px;
     color: #333;
+}
+
+@media (max-width: 375px) {
+    .container {
+        width: 370px;
+    }
+
+    h1 {
+        margin: 10px auto 0;
+    }
+
+    button {
+        width: 300px;
+    }
 }
